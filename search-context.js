@@ -7,7 +7,7 @@
 Create the context menu
 */
 chrome.contextMenus.create({
-    "title": "Search Google for '%s'",
+    "title": "Search Google for \"%s\"",
     "id": "search-context-extra",
     "contexts": ["selection"],
     "type": "normal"
