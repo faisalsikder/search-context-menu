@@ -1,0 +1,20 @@
+{
+    "name": "Google Search Context",
+    "description": "Get Google search with right click context menu",
+    "version": "0.1.0",
+    "permissions": [
+        "contextMenus",
+        "activeTab"
+    ],
+    "icons": {
+    "24": "google.png"
+  },
+
+    "background": {
+        "persistent": false,
+        "scripts": [
+            "search-context.js"
+        ]
+    },
+    "manifest_version": 2
+}
